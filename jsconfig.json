@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "#database/*": ["database/*"],
+      "#router/*": ["router/*"],
+      "#utility/*": ["utility/*"],
+      "#middleware/*": ["middleware/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
